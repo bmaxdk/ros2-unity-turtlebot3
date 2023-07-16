@@ -13,6 +13,11 @@ In your workspace you need to add [ROS-TCP-Endpoint](https://github.com/Unity-Te
 Make sure to checkout **main-ros2**
 ```bash
 $ git checkout main-ros2
+
+# in your work space
+# build
+$ colcon build --packages-select ros_tcp_endpoint --cmake-force-configure --cmake-clean-cache
+
 ```
 
 
