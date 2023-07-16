@@ -75,6 +75,7 @@ $ ros2 launch unity_slam_example unity_slam_example.py
 
 [download](https://github.com/bmaxdk/ros2-unity-turtlebot3/tree/main/Unity_build)
 ```bash
+$ chmod +x A1.x86_64
 $ ./A1.x86_64
 ```
 
