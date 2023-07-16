@@ -10,7 +10,10 @@ run unityhub
 
 
 In your workspace you need to add [ROS-TCP-Endpoint](https://github.com/Unity-Technologies/ROS-TCP-Endpoint) in your `src`. 
-Make sure to checkout **dev-ros2**
+Make sure to checkout **main-ros2**
+```bash
+$ git checkout main-ros2
+```
 
 
 [Optional] If bridge is necessary:
