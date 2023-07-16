@@ -1,7 +1,13 @@
 # ros2-unity-turtlebot3
 use turtlebot3 in unity ros2
+- [Unity-Robotics-Hub](https://github.com/Unity-Technologies/Unity-Robotics-Hub/tree/main)
+- [Robotics-Nav2-SLAM-Example](https://github.com/Unity-Technologies/Robotics-Nav2-SLAM-Example)
 
 run unityhub
+*Editor Version matter* 2020.3.11f1 is the version I used.
+
+`Open` -> `Robotics-Nav2-SLAM-Example/Nav2SLAMExampleProject`
+
 
 In your workspace you need to add [ROS-TCP-Endpoint](https://github.com/Unity-Technologies/ROS-TCP-Endpoint) in your `src`
 
@@ -26,3 +32,8 @@ Will appear the movements
 ```bash
 $ ros2 topic echo /cmd_vel
 ```
+
+
+# Useful Websites:
+[For Connection](https://www.youtube.com/watch?v=pdMxLxolQuo&ab_channel=hrithikverma)
+[Connecting ROS to Unity: Using ROS# and ROSBridge](https://www.youtube.com/watch?v=OZiAJuWh6w8&ab_channel=TheRealFran)
