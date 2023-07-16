@@ -34,6 +34,19 @@ $ ros2 topic echo /cmd_vel
 ```
 
 
+## To view rviz2
+In your workspace, add [unity_slam_example](https://github.com/Unity-Technologies/Robotics-Nav2-SLAM-Example/tree/main/ros2_docker/colcon_ws/src/unity_slam_example) in your `src` folder.
+
+Now you will have two folder in `src`
+- unity_slam_example
+- ROS-TCP-Endpoint
+
+Once you colcon build:
+```bash
+$ ros2 launch unity_slam_example unity_slam_example.py
+```
+
+
 # Useful Websites:
 [For Connection](https://www.youtube.com/watch?v=pdMxLxolQuo&ab_channel=hrithikverma)
 [Connecting ROS to Unity: Using ROS# and ROSBridge](https://www.youtube.com/watch?v=OZiAJuWh6w8&ab_channel=TheRealFran)
