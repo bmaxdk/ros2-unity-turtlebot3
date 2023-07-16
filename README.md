@@ -1,4 +1,8 @@
 # ros2-unity-turtlebot3
+[![License](https://img.shields.io/badge/license-Apache--2.0-green.svg)](LICENSE.md)
+![ROS2](https://img.shields.io/badge/ros2-foxy-brightgreen)
+![Unity](https://img.shields.io/badge/unity-2020.3.11f-brightgreen)
+
 <img src="image/a2.png">
 use turtlebot3 in unity ros2
 
