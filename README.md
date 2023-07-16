@@ -50,8 +50,10 @@ Now you will have two folder in `src`
 - unity_slam_example
 - ROS-TCP-Endpoint
 
-Once you colcon build:
 ```bash
+# In your workspace build first
+$ colcon build --symlink-install
+
 $ ros2 launch unity_slam_example unity_slam_example.py
 ```
 
