@@ -9,7 +9,8 @@ run unityhub
 `Open` -> `Robotics-Nav2-SLAM-Example/Nav2SLAMExampleProject`
 
 
-In your workspace you need to add [ROS-TCP-Endpoint](https://github.com/Unity-Technologies/ROS-TCP-Endpoint) in your `src`
+In your workspace you need to add [ROS-TCP-Endpoint](https://github.com/Unity-Technologies/ROS-TCP-Endpoint) in your `src`. 
+Make sure to checkout **dev-ros2**
 
 
 [Optional] If bridge is necessary:
