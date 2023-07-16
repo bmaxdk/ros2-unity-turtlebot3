@@ -1,4 +1,6 @@
-# ros2-unity-turtlebot3
+<h1 align="center">ros2-unity-turtlebot3</h1>
+
+# ros2 unity setup
 <!-- [![License](https://img.shields.io/badge/license-Apache--2.0-green.svg)](LICENSE.md) -->
 ![ROS2](https://img.shields.io/badge/ros2-foxy-brightgreen)
 ![Unity](https://img.shields.io/badge/unity-2020.3.11f-brightgreen)
@@ -67,6 +69,11 @@ $ colcon build --symlink-install
 $ ros2 launch unity_slam_example unity_slam_example.py
 ```
 
+
+# [Optional] ros2 unity setup with build x86_64
+```bash
+$ ./A1.x86_64
+```
 
 # Useful Sources:
 - [For Connection](https://www.youtube.com/watch?v=pdMxLxolQuo&ab_channel=hrithikverma) (really uesful)
